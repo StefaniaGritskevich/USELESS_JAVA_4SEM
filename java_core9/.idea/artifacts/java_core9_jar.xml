@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="java_core9:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/java_core9_jar</output-path>
+    <root id="archive" name="java_core9.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/src/main/webapp/WEB-INF/library/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="java_core9" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/main/webapp/WEB-INF/library/log4j-1.2-api-2.19.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/main/webapp/WEB-INF/library/log4j-api-2.19.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/main/webapp/WEB-INF/library/mssql-jdbc-11.2.3.jre17.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
